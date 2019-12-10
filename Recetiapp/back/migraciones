@@ -1,0 +1,4 @@
+rails generate scaffold user nombre:string google_id:string correo:string imagen:string telefono:string direccion:string saldo:integer
+rails generate scaffold store nombre:string google_id:string correo:string imagen:string telefono:string direccion:string saldo:integer
+rails generate scaffold recipe nombre:string descripcion:string imagen:string ingredientes:string precio_unitario:string stock:integer store:belongs_to 
+rails generate scaffold order fecha_entrega:string costo_total:integer direccion_entrega:string estado:string calificacion_usuario:integer calificacion_tienda:integer cantidad:integer user:belongs_to store:belongs_to recipe:belongs_to 

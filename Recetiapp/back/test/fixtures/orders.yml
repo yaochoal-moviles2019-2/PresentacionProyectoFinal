@@ -1,0 +1,25 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  fecha_entrega: MyString
+  costo_total: 1
+  direccion_entrega: MyString
+  estado: MyString
+  calificacion_usuario: 1
+  calificacion_tienda: 1
+  cantidad: 1
+  user: one
+  store: one
+  recipe: one
+
+two:
+  fecha_entrega: MyString
+  costo_total: 1
+  direccion_entrega: MyString
+  estado: MyString
+  calificacion_usuario: 1
+  calificacion_tienda: 1
+  cantidad: 1
+  user: two
+  store: two
+  recipe: two
